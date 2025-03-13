@@ -1,5 +1,39 @@
 /* FONTS */
 
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+ 
+.kanit-heading {
+  font-family: "Kanit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 4rem;
+}
+ 
+.kanit-subheading {
+  font-family: "Kanit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+ 
+.kanit-btn-txt {
+  font-family: "Kanit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
 /* GLOBAL STYLES */
 
 * {
@@ -10,6 +44,8 @@
 
 body {
   height: 100vh;
+  color: #ECEDF0;
+  background-color: #404A65;
 }
 
 .game-section {
@@ -17,6 +53,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  padding: 5rem;
 }
 
 .author-info {
@@ -31,6 +69,14 @@ body {
 }
 
 /* TITLE SECTION */
+
+.title {
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  -webkit-text-stroke: 5px #35383F;
+  /* text-stroke: 4px black; */
+}
+
+.instructions {}
 
 /* COIN IMAGE SECTION */
 
@@ -53,4 +99,9 @@ body {
 
 .coin-label-tails {
   display: none;
+}
+
+.random-button {
+  background-color: #1F6FB0;
+  color: #ECEDF0;
 }
