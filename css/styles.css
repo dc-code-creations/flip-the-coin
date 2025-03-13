@@ -61,11 +61,20 @@ body {
   font-size: 14px;
   text-align: center;
   margin-top: 16px;
-  color: rgb(55, 65, 81);
+  
+  font-family: "Kanit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .author-info a {
   text-decoration: none;
+  color: #ECEDF0;
+}
+
+.author-info a:hover {
+  color: #1F6FB0;
 }
 
 /* TITLE SECTION */
@@ -73,7 +82,6 @@ body {
 .title {
   /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   -webkit-text-stroke: 5px #35383F;
-  /* text-stroke: 4px black; */
 }
 
 .instructions {}
@@ -104,4 +112,9 @@ body {
 .random-button {
   background-color: #1F6FB0;
   color: #ECEDF0;
+  text-transform: uppercase;
+  padding: .5rem 3rem;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 4px 0px 0px #23649b;
 }
