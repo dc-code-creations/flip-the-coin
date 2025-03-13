@@ -12,6 +12,13 @@ body {
   height: 100vh;
 }
 
+.game-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .author-info {
   font-size: 14px;
   text-align: center;
@@ -27,8 +34,19 @@ body {
 
 /* COIN IMAGE SECTION */
 
+.coin-imgs {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 8rem;
+}
+
 .coin-tails {
   display: none;
+}
+
+.coin-shadow {
+  padding: 1.5rem;
 }
 
 /* BUTTON SECTION */
