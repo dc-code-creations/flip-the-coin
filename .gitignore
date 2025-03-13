@@ -1,0 +1,11 @@
+*.env
+
+*.fig
+*.xd
+
+.DS_Store
+.prettierignore
+
+design
+README_template.md
+thumbnail.jpg
