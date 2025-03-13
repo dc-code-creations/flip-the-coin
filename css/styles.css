@@ -21,7 +21,7 @@
 .kanit-subheading {
   font-family: "Kanit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-size: 1.5rem;
 }
@@ -84,7 +84,9 @@ body {
   -webkit-text-stroke: 5px #35383F;
 }
 
-.instructions {}
+.instructions {
+  padding: 1rem 0 3rem;
+}
 
 /* COIN IMAGE SECTION */
 
@@ -92,7 +94,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  max-width: 8rem;
+  max-width: 9rem;
 }
 
 .coin-tails {
@@ -100,20 +102,22 @@ body {
 }
 
 .coin-shadow {
-  padding: 1.5rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.coin-label {
+  padding: 1rem 0 3rem;
 }
 
 /* BUTTON SECTION */
-
-.coin-label-tails {
-  display: none;
-}
 
 .random-button {
   background-color: #1F6FB0;
   color: #ECEDF0;
   text-transform: uppercase;
   padding: .5rem 3rem;
+  margin: 1rem;
+
   border: none;
   border-radius: 7px;
   box-shadow: 0px 4px 0px 0px #23649b;
