@@ -23,4 +23,16 @@ body {
   text-decoration: none;
 }
 
-/*  */
+/* TITLE SECTION */
+
+/* COIN IMAGE SECTION */
+
+.coin-tails {
+  display: none;
+}
+
+/* BUTTON SECTION */
+
+.coin-label-tails {
+  display: none;
+}
