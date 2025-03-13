@@ -1,14 +1,4 @@
 /* FONTS */
-
-/* // <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
-
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
  
 .kanit-heading {
   font-family: "Kanit", sans-serif;
@@ -80,7 +70,6 @@ body {
 /* TITLE SECTION */
 
 .title {
-  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   -webkit-text-stroke: 5px #35383F;
 }
 
@@ -96,11 +85,6 @@ body {
 
   max-width: 9rem;
 }
-
-.coin-tails {
-  display: none;
-}
-
 .coin-shadow {
   padding: 2.5rem 1.5rem;
 }
